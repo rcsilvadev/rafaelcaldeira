@@ -3,7 +3,7 @@ local:
     service: appserver
     exec:
       options: --user www-data -e COLUMNS=${DRUSH_COLUMNS} -e DRUSH_PATHS_ALIAS_PATH=/app/drush/sites
-  uri: rafaelcaldeira.lndo.site
+  uri: http://rafaelcaldeira.lndo.site:8000/
   root: /app/docroot
   paths:
     drush-script: /app/vendor/drush/drush/drush

@@ -55,3 +55,5 @@ modules:
     uninstall:
       - devel
       - views_ui
+cloud:
+  appId: 8f62206e-8e5f-4c38-9957-ff502106c6b3
